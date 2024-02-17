@@ -29,9 +29,8 @@ class _HadethViewState extends State<HadethView> {
           "assets/images/hadeth_header.png",
           height: mediaQuery.height * 0.2,
         ),
-        Divider(
+        const Divider(
           thickness: 1.2,
-          color: theme.primaryColor,
         ),
         const Text(
           "الأحاديث",
@@ -41,9 +40,8 @@ class _HadethViewState extends State<HadethView> {
             fontWeight: FontWeight.w600,
           ),
         ),
-        Divider(
+        const Divider(
           thickness: 1.2,
-          color: theme.primaryColor,
         ),
         Expanded(
           child: ListView.builder(
@@ -61,6 +59,7 @@ class _HadethViewState extends State<HadethView> {
                   fontWeight: FontWeight.w500,
                   fontFamily: "El Messiri",
                   fontSize: 22,
+                  height: 1.8,
                 ),
                 textAlign: TextAlign.center,
               ),
